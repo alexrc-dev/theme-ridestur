@@ -1,0 +1,29 @@
+// Post SCSS for the theme.
+
+body.pagelayout-login {
+  background-image: url([[pix:theme_ridestur|loginbackgroundimage]]);
+  background-size: cover;
+}
+body.pagelayout-frontpage {
+  background-image: url([[pix:theme_ridestur|frontpagebackgroundimage]]);
+  background-size: cover;
+}
+body.pagelayout-mydashboard {
+  background-image: url([[pix:theme_ridestur|dashboardbackgroundimage]]);
+  background-size: cover;
+}
+body.pagelayout-course,
+body.pagelayout-incourse {
+  background-image: url([[pix:theme_ridestur|incoursebackgroundimage]]);
+  background-size: cover;
+}
+body.pagelayout-embedded,
+body.pagelayout-popup,
+body.pagelayout-secure,
+body.pagelayout-print {
+  background-image: none;
+}
+body {
+  background-image: url([[pix:theme_ridestur|defaultbackgroundimage]]);
+  background-size: cover;
+}
